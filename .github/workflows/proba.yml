@@ -6,4 +6,4 @@ jobs:
     steps:
       - uses: actions/checkout@v6.0.1
       - run: pip install nbconvert ipykernel
-      - run: python -m nbconvert --to markdown
+      - run: python -m nbconvert --to markdown --execute liczenie_w_c_za_pomoca_pythona.ipynb
