@@ -6,5 +6,3 @@ jobs:
     steps:
       - uses: actions / checkout@v6.0.1
       - run: pip install nbconvert ipykernel
-      
-      
