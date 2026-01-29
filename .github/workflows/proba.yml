@@ -1,0 +1,10 @@
+name: proba
+on: push
+jobs:
+  job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions / checkout
+      - run: pip install nbconvert ipykernel
+      
+      
